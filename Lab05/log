@@ -1,0 +1,112 @@
+/home/lolosioann/Lab05
+example1
+example1.c
+example2
+example2.c
+example3
+example3.c
+example4
+example4.c
+example5
+example5.c
+example6.c
+log
+total 128
+-rwxrwxr-x 1 lolosioann lolosioann 16752 Dec 19 12:21 example1
+-rw-rw-r-- 1 lolosioann lolosioann   485 Dec 19 12:25 example1.c
+-rwxrwxr-x 1 lolosioann lolosioann 16752 Dec 19 12:27 example2
+-rw-rw-r-- 1 lolosioann lolosioann   431 Dec 19 12:25 example2.c
+-rwxrwxr-x 1 lolosioann lolosioann 16752 Dec 19 12:28 example3
+-rw-rw-r-- 1 lolosioann lolosioann   442 Dec 19 12:25 example3.c
+-rwxrwxr-x 1 lolosioann lolosioann 16712 Dec 19 12:29 example4
+-rw-rw-r-- 1 lolosioann lolosioann   574 Dec 19 12:25 example4.c
+-rwxrwxr-x 1 lolosioann lolosioann 16784 Dec 19 12:29 example5
+-rw-rw-r-- 1 lolosioann lolosioann   428 Dec 19 12:25 example5.c
+-rw-rw-r-- 1 lolosioann lolosioann   470 Dec 19 12:25 example6.c
+-rw-rw-r-- 1 lolosioann lolosioann   138 Dec 19 12:33 log
+.
+..
+example1
+example1.c
+example2
+example2.c
+example3
+example3.c
+example4
+example4.c
+example5
+example5.c
+example6.c
+log
+  File: example1.c
+  Size: 485       	Blocks: 8          IO Block: 4096   regular file
+Device: 811h/2065d	Inode: 410265      Links: 1
+Access: (0664/-rw-rw-r--)  Uid: ( 1229/lolosioann)   Gid: ( 1231/lolosioann)
+Access: 2024-12-19 12:20:49.218733235 +0200
+Modify: 2024-12-19 12:25:00.149374282 +0200
+Change: 2024-12-19 12:25:00.149374282 +0200
+ Birth: -
+find: paths must precede expression: `example2.c'
+find: possible unquoted pattern after predicate `-name'?
+./example2.c
+./example4.c
+./example5.c
+./example3.c
+./example1.c
+./example6.c
+#include <stdio.h>
+
+int main(void) {
+    int x = 10;      // A normal integer variable
+    int *p;          // p is a pointer to an integer
+
+    p = &x;          // p now holds the address of x
+
+    printf("Value of x: %d\n", x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Value of p: %p\n", (void*)p);
+    printf("Value pointed to by p: %d\n", *p);
+
+    *p = 20;         // Change the value of x using the pointer
+    printf("New value of x: %d\n", x);
+
+    return 0;
+}
+#include <stdio.h>
+
+int main(void) {
+    int x = 10;      // A normal integer variable
+    int *p;          // p is a pointer to an integer
+
+    p = &x;          // p now holds the address of x
+
+    printf("Value of x: %d\n", x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Value of p: %p\n", (void*)p);
+    printf("Value pointed to by p: %d\n", *p);
+
+    *p = 20;         // Change the value of x using the pointer
+    printf("New value of x: %d\n", x);
+
+    return 0;
+}
+#include <stdio.h>
+
+int main(void) {
+    int x = 10;      // A normal integer variable
+    int *p;          // p is a pointer to an integer
+
+    p = &x;          // p now holds the address of x
+
+    printf("Value of x: %d\n", x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Value of x: %d\n", x);
+    printf("Address of x: %p\n", (void*)&x);
+    printf("Value of p: %p\n", (void*)p);
+    printf("Value pointed to by p: %d\n", *p);
+
+    *p = 20;         // Change the value of x using the pointer
+    printf("New value of x: %d\n", x);
+
+    return 0;
+}
